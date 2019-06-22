@@ -3,10 +3,9 @@ import React from "react";
 const Dashboard = () => {
   return (
     <div className="plain-text">
-      <h1>Some header</h1>
+      <h1>Hello, my name is Bartosz Termena.</h1>
       <h3>
-        Some text blah blah blah Some text blah blah blahSome text blah blah
-        blahSome text blah blah blahSome text blah blah blah
+       I am a Designer / Front End Developer living in Warsaw.
       </h3>
     </div>
   );

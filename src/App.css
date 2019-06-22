@@ -15,6 +15,7 @@ h1, h2 {
   font-weight: 400;
 }
 h3, h4 {
+  color: #5f5f79;
   margin: 0;
   font-weight: 300;
 }
@@ -85,23 +86,26 @@ header {
 }
 .logo {
   position: absolute;
-  top: 0.5rem;
-  left: 0.5rem;
-  height: 4rem;
-  width: auto;
+  top: 1.5rem;
+  left: 1.5rem;
+  cursor: pointer;
 }
+
 nav {
 	flex: 2;
 }
 .nav-links {
 	justify-content: space-around;
   list-style: none;
-  cursor: pointer;
 }
 .nav-link {
 	color: #5f5f79;
-	font-size: 1.2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
 	text-decoration: none;
+}
+.nav-link:hover{
+  color: #00A8B3
 }
 .plain-text {
   padding: 1rem 1rem;
@@ -175,5 +179,8 @@ nav {
     padding: 1rem 1rem;
     margin: 0.5rem 0.5rem;
     width: 100%
+  }
+  .nav-links {
+    display: none;
   }
 }
