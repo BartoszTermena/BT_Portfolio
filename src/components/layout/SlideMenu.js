@@ -29,7 +29,7 @@ const MenuLinks = props => {
     <li>
       <i aria-hidden="true" className={`fa ${link.icon}`} />
       {link.link === "#mywork" ? (
-        <Link to="mywork">my work</Link>
+        <Link onClick={() => props.close()} to="mywork">my work</Link>
       ) : (
         <a href={link.link} target="_blank">
           {link.text}
@@ -73,7 +73,7 @@ const Menu = props => {
           </span>
         </div>
       </div>
-      <MenuLinks menuStatus={menuStatus} />
+      <MenuLinks menuStatus={menuStatus} close={_close}/>
     </div>
   );
 };

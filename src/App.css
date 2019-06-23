@@ -9,7 +9,7 @@ html {
 }
 body {
   font-family: 'Poppins', sans-serif;
-  height: 90%;
+  height: 100vh;
   width: 100%;
   line-height: 1.5;
 }
@@ -23,8 +23,16 @@ h3, h4 {
   font-weight: 300;
 }
 .my-work {
+  z-index: 2;
+  position:relative;
   text-align: center;
   justify-content: center;
+}
+
+.card {
+  padding: 1rem 1rem;
+  margin: 1rem 1rem;
+  box-shadow: 3px 5px 5px 0 rgba(0, 0, 0, 0.15);
 }
 .layout::after {
   content: '';
@@ -56,12 +64,11 @@ h3, h4 {
   position: relative;
   z-index:3;
   font-size: 1rem;
-  font-weight: 300;
   color: #000;
   text-align: center;
   justify-content: center;
+  margin-top: 15rem;
 }
-
 
 @media (max-width: 1440px) {
   .circle-large {
@@ -79,16 +86,6 @@ h3, h4 {
   .circle-medium-md {
     display: none;
   }
- .plain-text{
-  position: relative;
-  z-index:3;
-  font-size: 0.7rem;
-  font-weight: 200;
-  color: #000;
-  text-align: center;
-  justify-content: center;
-  margin-top: 5.5rem;
- }
   body {
     background: url('./components/layout/images/background-sm.svg') no-repeat;
     background-size: 100%;

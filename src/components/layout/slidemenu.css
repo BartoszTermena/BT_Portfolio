@@ -2,7 +2,7 @@
     display: block;
     height: 60px;
     background-color: #9C27B0;
-    box-shadow: 2px 5px 5px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 2px 5px 5px 0 rgba(0, 0, 0, 0.15);
     text-align: center;
     z-index: 2;
     position: relative;
@@ -91,16 +91,18 @@
   }
   
   #menu {
-    z-index: 2;
-    position: relative;
-    height: 35vh;
+    z-index: 4;
+    position: absolute;
+    height: calc(100vh - 60px);
     width: 230px;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.80);
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
     transition: -webkit-transform 300ms;
     transition: transform 300ms;
-    transition: transform 300ms, -webkit-transform 300ms;
+    -webkit-box-shadow: 13px -1px 5px -2px rgba(0,0,0,0.39);
+    -moz-box-shadow: 13px -1px 5px -2px rgba(0,0,0,0.39);
+    box-shadow: 13px 2px 5px -2px rgba(0,0,0,0.15);
   }
   #menu ul {
     margin-top: 0px;
@@ -120,22 +122,25 @@
   
   .fa {
     color: #9C27B0;
-    padding-right: 8px;
+    padding-right: 0.8rem;
   }
   
   li a {
-    text-decoration: none;
+    text-decoration: none!important;
     color: black;
   }
-  
+  li a:hover {
+    color: #9C27B0;
+  }
   #menu.isopen {
     -webkit-transform: none;
             transform: none;
   }
   
-  @media screen and (max-width: 420px) {
-    .menubar span {
-      font-size: 1.2em;
+
+  @media (max-width: 1235px) {
+    #menu {
+      background-color:#fff;
     }
   }
   
