@@ -1,19 +1,19 @@
-<svg width="561" height="600" viewBox="0 0 561 600" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<path d="M-8.10672 102.522C42.9498 402.292 776.76 360.83 446.042 609.986L-2.55167 614.85L-8.10672 102.522Z" fill="url(#paint0_linear)"/>
-<rect x="214" y="265" width="150" height="163" fill="url(#pattern0)"/>
-<rect x="421" y="352" width="140" height="153" fill="url(#pattern1)"/>
-<rect y="190" width="156" height="156" fill="url(#pattern2)"/>
+<svg width="930" height="845" viewBox="0 0 930 845" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M-8.83645 0.721649C72.2747 499.391 1298.74 443.037 742.773 851.155L-6.70479 851.592L-8.83645 0.721649Z" fill="url(#paint0_linear)"/>
+<rect x="488" y="347" width="168" height="182" fill="url(#pattern0)"/>
+<rect x="776" y="473" width="154" height="169" fill="url(#pattern1)"/>
+<rect x="205" y="230" width="180" height="175" fill="url(#pattern2)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0" transform="translate(-0.000525253) scale(0.00329293 0.0030303)"/>
+<use xlink:href="#image0" transform="translate(0 -0.00101215) scale(0.00328947 0.00303644)"/>
 </pattern>
 <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image1" transform="translate(-0.0464286) scale(0.00182143 0.00166667)"/>
+<use xlink:href="#image1" transform="translate(-0.0487013) scale(0.001829 0.00166667)"/>
 </pattern>
 <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image2" transform="scale(0.00195312)"/>
+<use xlink:href="#image2" transform="translate(0 -0.0142857) scale(0.00195312)"/>
 </pattern>
-<linearGradient id="paint0_linear" x1="427.109" y1="672.708" x2="-27" y2="113" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear" x1="710.268" y1="954.989" x2="-34.6656" y2="13.1496" gradientUnits="userSpaceOnUse">
 <stop stop-color="#C36CBB"/>
 <stop offset="1" stop-color="#A46A6A" stop-opacity="0"/>
 </linearGradient>

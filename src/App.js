@@ -1,18 +1,25 @@
 import React, { Fragment } from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Background from "./components/layout/Background";
-import Navbar from "./components/layout/Navbar";
+import MyWork from "./components/pages/MyWork";
 import Dashboard from "./components/Dashboard";
+import Menu from "./components/layout/SlideMenu";
 import "./App.css";
 
 function App() {
   return (
-    <Fragment>
-      <Background />
-      <div className="layout">
-        <Navbar />
-        <Dashboard />
-      </div>
-    </Fragment>
+    <BrowserRouter>
+      <Fragment>
+        <Menu title="Home" />
+        <div className="layout">
+          <Background />
+          <Switch>
+            <Route exact path="/" component={Dashboard} />
+            <Route path="/mywork" component={MyWork} />
+          </Switch>
+        </div>
+      </Fragment>
+    </BrowserRouter>
   );
 }
 
