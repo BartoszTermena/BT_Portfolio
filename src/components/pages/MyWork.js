@@ -35,7 +35,7 @@ const MyWork = () => {
     }
   ]);
   let list = pages.map(page => (
-    <div class="card">
+    <div class="card card-content align-items-center">
       <h5 class="card-title">{page.title}</h5>
       <img src={page.img} class="card-img-top" alt="..." />
       <div class="card-body">
@@ -53,7 +53,7 @@ const MyWork = () => {
   ));
   return (
     <React.Fragment>
-      <div className="my-work container py-5">
+      <div className="my-work py-5">
         <div>{list}</div>
       </div>
     </React.Fragment>
